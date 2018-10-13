@@ -1,3 +1,26 @@
+/*
+    blue #4abdac
+    red #fc4a1a
+    yello #f7b733
+    white #dfdce3
+*/
 .navbar{
-    color:#246d5f;
+    background-color:#4abdac;
+    border-radius: 25px;
+    margin: auto;
+    width: 75%;
+    text-align: center;
+}
+
+.navbar-item{
+    padding: 20px;
+    display:inline-block;
+    text-decoration: none;
+    color: #f7b733;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 20pt;
+}
+.navbar-item:hover{
+    background-color: #b4e4dd;
 }
