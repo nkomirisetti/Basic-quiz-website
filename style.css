@@ -50,6 +50,7 @@
     text-align: center;
     display: block;    
     margin-left: 160px;
+    padding-bottom: 0px;
 }
 .title{
     color: #26222a;
@@ -69,11 +70,11 @@
     text-align: left;
 }
 .questions-section{
-    margin: auto;
-    width: 50%;
     padding: 10px;
-    margin-top: 160px;
+    margin-top: 200px;
     margin-left: 160px;
+    overflow: auto;
+    height: 600px;
 }
 .question{
     background-color:#4abdac;
