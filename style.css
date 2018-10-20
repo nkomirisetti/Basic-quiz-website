@@ -13,14 +13,14 @@
 }*/
 
 .navbar{
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 160px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+    height: 100%; 
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
     left: 0;
     background-color: #4abdac;
-    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-x: hidden;
     padding-top: 20px;
     border-radius: 0px 25px 25px 25px;
 }
@@ -39,7 +39,16 @@
 }
 .header-section{
     text-align: center;
-    background-color: #dfdce3;
+    top: 0px;
+    left:40%;
+    transform:translateX(-50%);
+    position: fixed;
+    background-color: grey;
+    width:100%;
+    max-width: 640px;
+    z-index: 1;
+    text-align: center;
+    display: block;    
     margin-left: 160px;
 }
 .title{
@@ -63,6 +72,7 @@
     margin: auto;
     width: 50%;
     padding: 10px;
+    margin-top: 160px;
     margin-left: 160px;
 }
 .question{
