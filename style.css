@@ -4,35 +4,49 @@
     yello #f7b733
     white #dfdce3
 */
-.navbar{
+/*.navbar{
     background-color:#4abdac;
     border-radius: 25px;
     margin: auto;
     width: 75%;
     text-align: center;
-}
+}*/
 
+.navbar{
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #4abdac;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    border-radius: 0px 25px 25px 25px;
+}
 .navbar-item{
-    padding: 20px;
     display:inline-block;
+    margin: 15px;
     text-decoration: none;
     color: #f7b733;
     border-radius: 25px;
     font-weight: bold;
     font-size: 20pt;
 }
+
 .navbar-item:hover{
     background-color: #b4e4dd;
 }
 .header-section{
     text-align: center;
     background-color: #dfdce3;
+    margin-left: 160px;
 }
 .title{
     color: #26222a;
     text-align: center;
     text-shadow: 1px 1px #7e718e;
-    font-size: 2.5em;
+    font-size: 2.5em; 
     font-family: "Arial Black", Gadget, sans-serif;
 }
 .subtitle{
@@ -44,4 +58,22 @@
 }
 .header-container{
     text-align: left;
+}
+.questions-section{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    margin-left: 160px;
+}
+.question{
+    background-color:#4abdac;
+    border-radius: 25px;
+    width: 75%;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+    margin-left: 0 auto;
+}
+.question-header{
+    color: #f7b733;
+    font-family: "Arial Black", Gadget, sans-serif;
 }
