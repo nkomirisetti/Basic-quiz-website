@@ -5,7 +5,7 @@ $(document).ready(function () {
     "use strict";
     
     
-    $(".questions-title").html("Answered Questions");
+    $(".questions-title").html("Unanswered Questions");
     $(".questions-section").append("<div class=\"container answered-questions-container\"></div>");
     $(".answered-questions-container").append("<h1 class=\"title answers-title\">Answered Questions</h1>");
     $(".answered-questions-container").append($(".question-answered-text").parent().parent());
@@ -22,7 +22,7 @@ $(document).ready(function () {
 	 $(".header-container").append("<button class=\"button sortAlphabetically\">Sort Alphabetically</button>");
 	 $(".sortAlphabetically").on("click", function () {
 	 	var allquestions = $(".questions-title").sort(function (a, b) {
-            return ('' + a.attr).localeCompare(b.attr);
+            return ('' + a).localeCompare(b);
         });
 	 	$("").append(allquestions);
     }); 
