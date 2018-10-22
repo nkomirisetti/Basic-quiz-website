@@ -41,7 +41,8 @@ $(document).ready(function () {
     }); 
     
     $(".question").each(function () {
-        $(this).find(".question-header").append("<br>answer count: " + $(this).data("answercount"));
+        let count = $(this).attr("data-answercount");
+        $(this).find(".question-header").append("<br>Answer Count: " + count);// $(this).data("answercount"));
     });
     
 });
