@@ -21,10 +21,11 @@ $(document).ready(function () {
 	// Add functionality to sort questions alphabetically AND by answerCount.
 	 $(".header-container").append("<button class=\"button alphabeticSort\">Sort alphabetically</button>");
 	 $(".alphabeticSort").on("click", function () {
-	 	// uhh this isn't right and there should be some other stuff here
 	 	var allquestions = $(".questions-title").sort();
-	 	$(".question-body").append("allquestions");
-	}); 
+	 	$(".question-body").append(allquestions);
+    }); 
+    
+
 	 // jquery search alphabetically -- pass in function with two arguments, compare text
 	 // sort returns array
 	 // append sorted array back to questions container
