@@ -24,7 +24,7 @@ $(document).ready(function () {
 	 	var allquestions = $(".questions-title").sort(function (a, b) {
             return ('' + a).localeCompare(b);
         });
-	 	$("").append(allquestions);
+	 	$("").append(allquestions).parent;
     }); 
     
 
@@ -44,7 +44,6 @@ $(document).ready(function () {
         let count = $(this).attr("data-answercount");
         $(this).find(".question-header").append("<br>Answer Count: " + count);// $(this).data("answercount"));
     });
-    
 });
 
 
