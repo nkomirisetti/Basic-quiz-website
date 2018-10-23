@@ -21,10 +21,10 @@ $(document).ready(function () {
 	// Add functionality to sort questions alphabetically AND by answerCount.
 	 $(".header-container").append("<button class=\"button sortAlphabetically\">Sort Alphabetically</button>");
 	 $(".sortAlphabetically").on("click", function () {
-	 	var allquestions = $(".questions-title").sort(function (a, b) {
+        var allquestions = $(".question").sort(function (a, b) {
             return ('' + a).localeCompare(b);
-        });
-	 	$("").append(allquestions).parent;
+        });     
+	 	$(".questions-container").append(allquestions).parent.parent;
     }); 
     
 
